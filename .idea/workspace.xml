@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a1c407-8637-4885-baf9-9340282e10a8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drf/db.sqlite3" afterPath="$PROJECT_DIR$/drf/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drf/api/admin.py" afterPath="$PROJECT_DIR$/drf/api/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drf/api/models.py" afterPath="$PROJECT_DIR$/drf/api/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drf/api/serializers.py" afterPath="$PROJECT_DIR$/drf/api/serializers.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drf/api/urls.py" afterPath="$PROJECT_DIR$/drf/api/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drf/api/views.py" afterPath="$PROJECT_DIR$/drf/api/views.py" />
     </list>
@@ -19,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/drf/api/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="144">
+              <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -31,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/drf/api/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state relative-caret-position="720">
+              <caret line="40" column="53" lean-forward="false" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -65,8 +60,8 @@
         <option value="$PROJECT_DIR$/drf/api/admin.py" />
         <option value="$PROJECT_DIR$/drf/drf/urls.py" />
         <option value="$PROJECT_DIR$/drf/api/models.py" />
-        <option value="$PROJECT_DIR$/drf/api/urls.py" />
         <option value="$PROJECT_DIR$/drf/api/views.py" />
+        <option value="$PROJECT_DIR$/drf/api/urls.py" />
       </list>
     </option>
   </component>
@@ -361,22 +356,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drf/api/urls.py">
+    <entry file="file://$PROJECT_DIR$/drf/api/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="720">
+          <caret line="40" column="53" lean-forward="false" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drf/api/views.py">
+    <entry file="file://$PROJECT_DIR$/drf/api/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        <state relative-caret-position="144">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

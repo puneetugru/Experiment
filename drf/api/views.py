@@ -25,8 +25,18 @@ class SchoolList(generics.ListCreateAPIView):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-    
+
 
 class SchoolDetail(generics.RetrieveAPIView):
     queryset = School.objects.all()
     serializer_class = SchoolSerializer
+
+
+class SchoolDelete(generics.DestroyAPIView):
+    queryset = School.objects.all()
+    serializer_class = SchoolSerializer
+
+
+    def delete(self, request, *args, **kwargs):
+        return self.destroy(request, *args, **kwargs)
+
