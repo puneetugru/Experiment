@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86a1c407-8637-4885-baf9-9340282e10a8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drf/db.sqlite3" afterPath="$PROJECT_DIR$/drf/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drf/api/models.py" afterPath="$PROJECT_DIR$/drf/api/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drf/api/urls.py" afterPath="$PROJECT_DIR$/drf/api/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drf/api/views.py" afterPath="$PROJECT_DIR$/drf/api/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drf/drf/settings.py" afterPath="$PROJECT_DIR$/drf/drf/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drf/drf/urls.py" afterPath="$PROJECT_DIR$/drf/drf/urls.py" />
-    </list>
+    <list default="true" id="86a1c407-8637-4885-baf9-9340282e10a8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
