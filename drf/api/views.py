@@ -7,7 +7,7 @@ from rest_framework.permissions import IsAdminUser
 from rest_framework.response import Response
 
 
-class SchoolList(generics.ListCreateAPIView):
+"""class SchoolList(generics.ListCreateAPIView):
     queryset = School.objects.all()
     serializer_class = SchoolSerializer
     permission_classes(IsAdminUser,)
@@ -38,5 +38,13 @@ class SchoolDelete(generics.DestroyAPIView):
 
 
     def delete(self, request, *args, **kwargs):
-        return self.destroy(request, *args, **kwargs)
+        return self.destroy(request, *args, **kwargs)"""
 
+class SchoolList(generics.ListCreateAPIView):
+    queryset = School.objects.all()
+    serializer_class = SchoolSerializer
+
+
+class SchoolDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = School.objects.all()
+    serializer_class = SchoolSerializer
