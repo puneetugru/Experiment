@@ -1,23 +1,32 @@
-from rest_framework.views import APIView
-from rest_framework.response import Response
 from .models import School
 from .serializers import SchoolSerializer
 from rest_framework import status
-from .permissions import IsAdminOrReadOnly
+from rest_framework import generics
+from rest_framework.decorators import permission_classes
+from rest_framework.permissions import IsAdminUser
+from rest_framework.response import Response
 
-#Commening out below view
 
-class SchoolList(APIView):
+class SchoolList(generics.ListCreateAPIView):
+    queryset = School.objects.all()
+    serializer_class = SchoolSerializer
+    permission_classes(IsAdminUser,)
 
-    def get(self, request, format=None):
-        schools = School.objects.all()
-        serializer = SchoolSerializer(schools, many=True)
+    def list(self, request, *args, **kwargs):
+        queryset = self.get_queryset()
+        serializer = SchoolSerializer(queryset, many=True)
         return Response(serializer.data)
 
+    @permission_classes((IsAdminUser, ))
     def post(self, request, format=None):
-        serializer = SchoolSerializer(data=request.data)
+        user = request.user
+        serializer = SchoolSerializer(data=request.data, context={'user':user})
         if serializer.is_valid():
-            permission_classes = (IsAdminOrReadOnly,)
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    
+
+class SchoolDetail(generics.RetrieveAPIView):
+    queryset = School.objects.all()
+    serializer_class = SchoolSerializer

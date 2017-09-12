@@ -7,7 +7,7 @@ class School(models.Model):
 
 #Adding below lines
     class Meta:
-        ordering = ('name',)
+        ordering = ('id',)
 
     def __str__(self):
         return self.name
